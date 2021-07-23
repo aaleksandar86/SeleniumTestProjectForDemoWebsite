@@ -4,3 +4,11 @@ Automated tests are needed for functional system end-to-end tests for the testin
 For running the tests on Chrome, a chromedriver.exe is needed. The driver version corresponds with the Chrome browser version. For example a Chrome Version 92.0.4515.107 (Official Build) (64-bit) would require a ChromeDriver 92.0.4515.43, as stated in https://sites.google.com/chromium.org/driver/downloads where you can find the suitable chromedriver. Choose the appropriate driver for you Operating system, for example, if you use Windows choose chromedriver_win32.zip
 
 To run the tests right click on SignUpTest or LoginAndShopTest
+
+#Improvements needed:
+-Incorporate geckodriver for Firefox
+-Implement driver auto update
+-Implement order test
+-Separate test files from page object files
+-Put test files references in test suite in xml file
+-Make the test able to run via terminal commands
