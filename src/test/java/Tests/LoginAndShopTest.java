@@ -1,3 +1,8 @@
+package Tests;
+
+import PageObjects.LoginPage;
+import PageObjects.Utils;
+import jdk.jshell.execution.Util;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,7 +17,6 @@ public class LoginAndShopTest {
 
     @BeforeSuite(alwaysRun = true)
     public static void main(String[] args) {
-        // ChromeDriver location set up in Utils class
         System.setProperty("webdriver.chrome.driver", Utils.CHROME_DRIVER_LOCATION);
     }
 

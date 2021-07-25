@@ -12,7 +12,7 @@ This project implements the Project Object Model
 
 ## Run tests
 
-To run the tests right click on SignUpTest or LoginAndShopTest
+To run the tests right click on Tests.SignUpTest or Tests.LoginAndShopTest
 
 ## Improvements needed
 

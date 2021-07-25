@@ -1,3 +1,7 @@
+package Tests;
+
+import PageObjects.Utils;
+import PageObjects.WebForm;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
@@ -8,7 +12,6 @@ public class SignUpTest {
 
     @BeforeSuite(alwaysRun = true)
     public static void main(String[] args) {
-        // ChromeDriver location set up in Utils class
         System.setProperty("webdriver.chrome.driver", Utils.CHROME_DRIVER_LOCATION);
     }
 
